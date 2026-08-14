@@ -2,49 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
-    <meta
-        name="description"
-        content="Software Engineer and Backend Developer portfolio resume."
-    >
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software Engineer and Backend Developer portfolio resume for Jeje Odunayo Oluwaseyi.">
     <title>Jeje Odunayo Oluwaseyi | Software Engineer</title>
 
-    <!-- Google Font -->
-    <link
-        rel="preconnect"
-        href="https://fonts.googleapis.com"
-    >
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
-    <link
-        rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin
-    >
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
-        rel="stylesheet"
-    >
-
-    <!-- Main stylesheet -->
+    <!-- Main Stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- =========================
-         NAVIGATION
-    ========================== -->
-
+    <!-- NAVIGATION -->
     <header class="navbar">
         <div class="container nav-container">
-
             <a href="#home" class="logo">
                 <span>&lt;</span>DEV<span>/&gt;</span>
             </a>
@@ -58,125 +33,77 @@
                 <a href="#contact">Contact</a>
             </nav>
 
-            <a href="#contact" class="nav-button">
-                Let's Talk
-            </a>
-
+            <a href="#contact" class="nav-button">Let's Talk</a>
         </div>
     </header>
 
-
     <main>
 
-        <!-- =========================
-             HERO
-        ========================== -->
-
+        <!-- HERO -->
         <section id="home" class="hero">
-
             <div class="hero-grid"></div>
 
             <div class="container hero-container">
-
                 <div class="hero-content">
-
-                    <div class="status">
-                        <span class="status-dot"></span>
-                        Available for opportunities
+                    
+                    <!-- Profile Picture Block -->
+                     
+                    <div class="profile-header-block">
+                        <div class="profile-avatar-wrapper">
+                            <img src="assets/stringlord.png" alt="Jeje Odunayo Oluwaseyi" class="profile-avatar" onError="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            
+                            <div class="profile-avatar-fallback" style="display: none;">JO</div>
+                        </div>
+                        <div class="status">
+                            <span class="status-dot"></span>
+                            Available for opportunities
+                        </div>
                     </div>
 
-                    <p class="eyebrow">
-                        SOFTWARE ENGINEER / BACKEND DEVELOPER
-                    </p>
+                    <p class="eyebrow">SOFTWARE ENGINEER / BACKEND DEVELOPER</p>
 
                     <h1>
-                        Building
-                        <span>scalable</span>
-                        systems with code.
+                        Building <span>scalable</span> systems with code.
                     </h1>
 
                     <p class="hero-description">
-                        Software Engineer specializing in Python backend
-                        development, scalable APIs, database systems,
-                        and reliable web applications.
+                        Software Engineer specializing in Python backend development, scalable APIs, database systems, and reliable web applications.
                     </p>
 
                     <div class="hero-buttons">
-
-                        <a
-                            href="#projects"
-                            class="btn btn-primary"
-                        >
-                            View Projects
-                            <span>↗</span>
+                        <a href="#projects" class="btn btn-primary">
+                            View Projects <span>↗</span>
                         </a>
-
-                        <a
-                            href="resume.pdf"
-                            class="btn btn-secondary"
-                            download
-                        >
-                            Download Resume
-                            <span>↓</span>
+                        <a href="resume.pdf" class="btn btn-secondary" download>
+                            Download Resume <span>↓</span>
                         </a>
-
                     </div>
 
                     <div class="social-links">
-
-                        <a
-                            href="https://github.com/yourusername"
-                            target="_blank"
-                            rel="noopener"
-                        >
-                            GitHub
-                        </a>
-
+                        <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
                         <span>/</span>
-
-                        <a
-                            href="https://linkedin.com/in/yourusername"
-                            target="_blank"
-                            rel="noopener"
-                        >
-                            LinkedIn
-                        </a>
-
+                        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
                         <span>/</span>
-
-                        <a href="mailto:youremail@example.com">
-                            Email
-                        </a>
-
+                        <a href="mailto:youremail@example.com">Email</a>
                     </div>
-
                 </div>
 
-
                 <!-- Code Card -->
-
                 <div class="code-window">
-
                     <div class="window-header">
-
                         <div class="window-dots">
                             <span></span>
                             <span></span>
                             <span></span>
                         </div>
-
-                        <span class="window-title">
-                            developer.py
-                        </span>
-
+                        <span class="window-title">developer.py</span>
                     </div>
 
                     <div class="code-content">
-
 <pre><span class="keyword">class</span> <span class="class-name">SoftwareEngineer</span>:
 
     <span class="keyword">def</span> <span class="function">__init__</span>(self):
-        self.name = <span class="string">"[FULL NAME]"</span>
+        self.name = <span class="string">"Jeje Odunayo Oluwaseyi"</span>
         self.role = <span class="string">"Backend Developer"</span>
 
         self.stack = [
@@ -188,945 +115,378 @@
         ]
 
     <span class="keyword">def</span> <span class="function">build</span>(self):
-        <span class="keyword">return</span> <span class="string">
-            "Reliable software"
-        </span></pre>
-
+        <span class="keyword">return</span> <span class="string">"Reliable software"</span></pre>
                     </div>
-
                 </div>
-
             </div>
 
             <div class="scroll-indicator">
                 <span></span>
                 Scroll to explore
             </div>
-
         </section>
 
 
-        <!-- =========================
-             ABOUT
-        ========================== -->
-
+        <!-- ABOUT -->
         <section id="about" class="section">
-
             <div class="container">
-
                 <div class="section-heading">
-
-                    <span class="section-number">
-                        01
-                    </span>
-
+                    <span class="section-number">01</span>
                     <div>
-                        <p class="section-label">
-                            ABOUT ME
-                        </p>
-
-                        <h2>
-                            Engineering with purpose.
-                        </h2>
+                        <p class="section-label">ABOUT ME</p>
+                        <h2>Engineering with purpose.</h2>
                     </div>
-
                 </div>
-
 
                 <div class="about-grid">
+                    <!-- About Profile Image Card -->
+                    <div class="about-image-card">
+                        <img src="assets/profile.jpg" alt="Jeje Odunayo Oluwaseyi headshot" class="about-profile-img" onError="this.src='https://via.placeholder.com/400x500/1e293b/ffffff?text=Jeje+Odunayo';">
+                    </div>
 
                     <div class="about-main">
-
                         <p class="large-text">
-                            I'm a Software Engineer focused on building
-                            backend systems that are reliable,
-                            maintainable, and designed to scale.
+                            I'm a Software Engineer focused on building backend systems that are reliable, maintainable, and designed to scale.
                         </p>
-
                         <p>
-                            My primary focus is Python development,
-                            particularly building web applications,
-                            REST APIs, authentication systems,
-                            database-driven applications, and
-                            background processing systems.
+                            My primary focus is Python development, particularly building web applications, REST APIs, authentication systems, database-driven applications, and background processing systems.
                         </p>
-
                         <p>
-                            I enjoy understanding how systems work
-                            underneath the surface and turning complex
-                            requirements into clean, practical software.
+                            I enjoy understanding how systems work underneath the surface and turning complex requirements into clean, practical software.
                         </p>
 
+                        <div class="about-details">
+                            <div class="detail">
+                                <span>Primary Language</span>
+                                <strong>Python</strong>
+                            </div>
+                            <div class="detail">
+                                <span>Specialization</span>
+                                <strong>Backend Engineering</strong>
+                            </div>
+                            <div class="detail">
+                                <span>Location</span>
+                                <strong>Nigeria</strong>
+                            </div>
+                            <div class="detail">
+                                <span>Email</span>
+                                <strong>youremail@example.com</strong>
+                            </div>
+                        </div>
                     </div>
-
-
-                    <div class="about-details">
-
-                        <div class="detail">
-                            <span>Primary Language</span>
-                            <strong>Python</strong>
-                        </div>
-
-                        <div class="detail">
-                            <span>Specialization</span>
-                            <strong>Backend Engineering</strong>
-                        </div>
-
-                        <div class="detail">
-                            <span>Location</span>
-                            <strong>[City, Country]</strong>
-                        </div>
-
-                        <div class="detail">
-                            <span>Email</span>
-                            <strong>youremail@example.com</strong>
-                        </div>
-
-                    </div>
-
                 </div>
-
             </div>
-
         </section>
 
 
-        <!-- =========================
-             SKILLS
-        ========================== -->
-
+        <!-- SKILLS -->
         <section id="skills" class="section section-dark">
-
             <div class="container">
-
                 <div class="section-heading">
-
-                    <span class="section-number">
-                        02
-                    </span>
-
+                    <span class="section-number">02</span>
                     <div>
-                        <p class="section-label">
-                            TECHNICAL SKILLS
-                        </p>
-
-                        <h2>
-                            Tools I build with.
-                        </h2>
+                        <p class="section-label">TECHNICAL SKILLS</p>
+                        <h2>Tools I build with.</h2>
                     </div>
-
                 </div>
 
-
                 <div class="skills-grid">
-
-                    <!-- Languages -->
-
                     <article class="skill-card">
-
-                        <div class="skill-icon">
-                            &lt;/&gt;
-                        </div>
-
-                        <h3>
-                            Languages
-                        </h3>
-
-                        <p>
-                            Core programming and web technologies.
-                        </p>
-
+                        <div class="skill-icon">&lt;/&gt;</div>
+                        <h3>Languages</h3>
+                        <p>Core programming and web technologies.</p>
                         <div class="tags">
-
                             <span>Python</span>
                             <span>JavaScript</span>
                             <span>SQL</span>
                             <span>HTML5</span>
                             <span>CSS3</span>
-
                         </div>
-
                     </article>
 
-
-                    <!-- Backend -->
-
                     <article class="skill-card">
-
-                        <div class="skill-icon">
-                            API
-                        </div>
-
-                        <h3>
-                            Backend
-                        </h3>
-
-                        <p>
-                            APIs and server-side application development.
-                        </p>
-
+                        <div class="skill-icon">API</div>
+                        <h3>Backend</h3>
+                        <p>APIs and server-side application development.</p>
                         <div class="tags">
-
                             <span>Django</span>
                             <span>DRF</span>
                             <span>FastAPI</span>
                             <span>REST APIs</span>
-
                         </div>
-
                     </article>
 
-
-                    <!-- Database -->
-
                     <article class="skill-card">
-
-                        <div class="skill-icon">
-                            DB
-                        </div>
-
-                        <h3>
-                            Data & Storage
-                        </h3>
-
-                        <p>
-                            Database systems and high-speed data access.
-                        </p>
-
+                        <div class="skill-icon">DB</div>
+                        <h3>Data & Storage</h3>
+                        <p>Database systems and high-speed data access.</p>
                         <div class="tags">
-
                             <span>MySQL</span>
                             <span>Redis</span>
                             <span>SQL</span>
                             <span>Database Design</span>
-
                         </div>
-
                     </article>
 
-
-                    <!-- Infrastructure -->
-
                     <article class="skill-card">
-
-                        <div class="skill-icon">
-                            ⚙
-                        </div>
-
-                        <h3>
-                            Tools & Infrastructure
-                        </h3>
-
-                        <p>
-                            Development, deployment, and background jobs.
-                        </p>
-
+                        <div class="skill-icon">⚙</div>
+                        <h3>Tools & Infrastructure</h3>
+                        <p>Development, deployment, and background jobs.</p>
                         <div class="tags">
-
                             <span>Git</span>
                             <span>GitHub</span>
                             <span>Docker</span>
                             <span>Celery</span>
-
                         </div>
-
                     </article>
-
                 </div>
-
             </div>
-
         </section>
 
 
-        <!-- =========================
-             EXPERIENCE
-        ========================== -->
-
+        <!-- EXPERIENCE -->
         <section id="experience" class="section">
-
             <div class="container">
-
                 <div class="section-heading">
-
-                    <span class="section-number">
-                        03
-                    </span>
-
+                    <span class="section-number">03</span>
                     <div>
-                        <p class="section-label">
-                            EXPERIENCE
-                        </p>
-
-                        <h2>
-                            Where I've contributed.
-                        </h2>
+                        <p class="section-label">EXPERIENCE</p>
+                        <h2>Where I've contributed.</h2>
                     </div>
-
                 </div>
 
-
                 <div class="timeline">
-
                     <article class="experience-item">
-
-                        <div class="experience-date">
-                            2024 — PRESENT
-                        </div>
-
+                        <div class="experience-date">2024 — PRESENT</div>
                         <div class="experience-content">
-
-                            <p class="experience-role">
-                                Software Engineer / Backend Developer
-                            </p>
-
-                            <h3>
-                                [Company Name]
-                            </h3>
-
-                            <p class="experience-location">
-                                [Location]
-                            </p>
-
+                            <p class="experience-role">Software Engineer / Backend Developer</p>
+                            <h3>[Company Name]</h3>
+                            <p class="experience-location">[Location]</p>
                             <ul>
-
-                                <li>
-                                    Designed and developed backend
-                                    services and REST APIs using Python
-                                    and Django.
-                                </li>
-
-                                <li>
-                                    Implemented authentication,
-                                    authorization, and secure API
-                                    communication.
-                                </li>
-
-                                <li>
-                                    Designed database structures and
-                                    optimized SQL queries for
-                                    application performance.
-                                </li>
-
-                                <li>
-                                    Used Redis for caching and
-                                    performance-sensitive operations.
-                                </li>
-
-                                <li>
-                                    Implemented background processing
-                                    workflows using Celery.
-                                </li>
-
+                                <li>Designed and developed backend services and REST APIs using Python and Django.</li>
+                                <li>Implemented authentication, authorization, and secure API communication.</li>
+                                <li>Designed database structures and optimized SQL queries for application performance.</li>
+                                <li>Used Redis for caching and performance-sensitive operations.</li>
+                                <li>Implemented background processing workflows using Celery.</li>
                             </ul>
-
                             <div class="experience-tags">
-
                                 <span>Python</span>
                                 <span>Django</span>
                                 <span>MySQL</span>
                                 <span>Redis</span>
-
                             </div>
-
                         </div>
-
                     </article>
 
-
                     <article class="experience-item">
-
-                        <div class="experience-date">
-                            2023 — 2024
-                        </div>
-
+                        <div class="experience-date">2023 — 2024</div>
                         <div class="experience-content">
-
-                            <p class="experience-role">
-                                Backend Developer
-                            </p>
-
-                            <h3>
-                                [Previous Company]
-                            </h3>
-
-                            <p class="experience-location">
-                                [Location]
-                            </p>
-
+                            <p class="experience-role">Backend Developer</p>
+                            <h3>[Previous Company]</h3>
+                            <p class="experience-location">[Location]</p>
                             <ul>
-
-                                <li>
-                                    Built API-driven web applications
-                                    using Python and FastAPI.
-                                </li>
-
-                                <li>
-                                    Developed reusable backend
-                                    components and services.
-                                </li>
-
-                                <li>
-                                    Integrated relational databases
-                                    and designed application data models.
-                                </li>
-
+                                <li>Built API-driven web applications using Python and FastAPI.</li>
+                                <li>Developed reusable backend components and services.</li>
+                                <li>Integrated relational databases and designed application data models.</li>
                             </ul>
-
                             <div class="experience-tags">
-
                                 <span>Python</span>
                                 <span>FastAPI</span>
                                 <span>MySQL</span>
                                 <span>REST API</span>
-
                             </div>
-
                         </div>
-
                     </article>
-
                 </div>
-
             </div>
-
         </section>
 
 
-        <!-- =========================
-             PROJECTS
-        ========================== -->
-
+        <!-- PROJECTS -->
         <section id="projects" class="section section-dark">
-
             <div class="container">
-
                 <div class="section-heading">
-
-                    <span class="section-number">
-                        04
-                    </span>
-
+                    <span class="section-number">04</span>
                     <div>
-                        <p class="section-label">
-                            SELECTED PROJECTS
-                        </p>
-
-                        <h2>
-                            Things I've built.
-                        </h2>
+                        <p class="section-label">SELECTED PROJECTS</p>
+                        <h2>Things I've built.</h2>
                     </div>
-
                 </div>
 
-
                 <div class="projects-grid">
-
-
-                    <!-- Project 1 -->
-
                     <article class="project-card featured-project">
-
                         <div class="project-top">
-
-                            <span class="project-number">
-                                01
-                            </span>
-
+                            <span class="project-number">01</span>
                             <div class="project-links">
-
-                                <a
-                                    href="#"
-                                    aria-label="GitHub repository"
-                                >
-                                    GitHub ↗
-                                </a>
-
-                                <a
-                                    href="#"
-                                    aria-label="Live project"
-                                >
-                                    Live Demo ↗
-                                </a>
-
+                                <a href="#" aria-label="GitHub repository">GitHub ↗</a>
+                                <a href="#" aria-label="Live project">Live Demo ↗</a>
                             </div>
-
                         </div>
-
-                        <div class="project-icon">
-                            ▶
-                        </div>
-
-                        <h3>
-                            Video Streaming Platform
-                        </h3>
-
+                        <div class="project-icon">▶</div>
+                        <h3>Video Streaming Platform</h3>
                         <p>
-                            A backend-driven video platform with
-                            authentication, video uploads, streaming,
-                            comments, likes, subscriptions, search,
-                            and personalized content.
+                            A backend-driven video platform with authentication, video uploads, streaming, comments, likes, subscriptions, search, and personalized content.
                         </p>
-
                         <div class="project-features">
-
-                            <span>
-                                User Authentication
-                            </span>
-
-                            <span>
-                                Video Uploads
-                            </span>
-
-                            <span>
-                                REST API
-                            </span>
-
-                            <span>
-                                Redis Caching
-                            </span>
-
+                            <span>User Authentication</span>
+                            <span>Video Uploads</span>
+                            <span>REST API</span>
+                            <span>Redis Caching</span>
                         </div>
-
                         <div class="project-tech">
-
                             <span>Python</span>
                             <span>Django</span>
                             <span>DRF</span>
                             <span>MySQL</span>
                             <span>Redis</span>
-
                         </div>
-
                     </article>
 
-
-                    <!-- Project 2 -->
-
                     <article class="project-card">
-
                         <div class="project-top">
-
-                            <span class="project-number">
-                                02
-                            </span>
-
+                            <span class="project-number">02</span>
                             <div class="project-links">
-
-                                <a href="#">
-                                    GitHub ↗
-                                </a>
-
-                                <a href="#">
-                                    Live Demo ↗
-                                </a>
-
+                                <a href="#">GitHub ↗</a>
+                                <a href="#">Live Demo ↗</a>
                             </div>
-
                         </div>
-
-                        <div class="project-icon">
-                            ₦
-                        </div>
-
-                        <h3>
-                            FinTech / Digital Wallet API
-                        </h3>
-
+                        <div class="project-icon">₦</div>
+                        <h3>FinTech / Digital Wallet API</h3>
                         <p>
-                            Backend infrastructure for wallet
-                            management, transactions, authentication,
-                            payment processing, and transaction history.
+                            Backend infrastructure for wallet management, transactions, authentication, payment processing, and transaction history.
                         </p>
-
                         <div class="project-features">
-
-                            <span>
-                                Wallet Management
-                            </span>
-
-                            <span>
-                                Transactions
-                            </span>
-
-                            <span>
-                                Authentication
-                            </span>
-
-                            <span>
-                                Payment Integration
-                            </span>
-
+                            <span>Wallet Management</span>
+                            <span>Transactions</span>
+                            <span>Authentication</span>
+                            <span>Payment Integration</span>
                         </div>
-
                         <div class="project-tech">
-
                             <span>Python</span>
                             <span>Django</span>
                             <span>REST API</span>
                             <span>MySQL</span>
                             <span>Redis</span>
-
                         </div>
-
                     </article>
 
-
-                    <!-- Project 3 -->
-
                     <article class="project-card">
-
                         <div class="project-top">
-
-                            <span class="project-number">
-                                03
-                            </span>
-
+                            <span class="project-number">03</span>
                             <div class="project-links">
-
-                                <a href="#">
-                                    GitHub ↗
-                                </a>
-
-                                <a href="#">
-                                    Live Demo ↗
-                                </a>
-
+                                <a href="#">GitHub ↗</a>
+                                <a href="#">Live Demo ↗</a>
                             </div>
-
                         </div>
-
-                        <div class="project-icon">
-                            AI
-                        </div>
-
-                        <h3>
-                            AI Content Automation System
-                        </h3>
-
+                        <div class="project-icon">AI</div>
+                        <h3>AI Content Automation System</h3>
                         <p>
-                            An automated backend system for researching
-                            topics, processing content, generating
-                            articles, and managing publishing workflows.
+                            An automated backend system for researching topics, processing content, generating articles, and managing publishing workflows.
                         </p>
-
                         <div class="project-features">
-
-                            <span>
-                                Automation
-                            </span>
-
-                            <span>
-                                Background Jobs
-                            </span>
-
-                            <span>
-                                Content Processing
-                            </span>
-
+                            <span>Automation</span>
+                            <span>Background Jobs</span>
+                            <span>Content Processing</span>
                         </div>
-
                         <div class="project-tech">
-
                             <span>Python</span>
                             <span>FastAPI</span>
                             <span>Redis</span>
                             <span>Celery</span>
                             <span>MySQL</span>
-
                         </div>
-
                     </article>
-
                 </div>
-
             </div>
-
         </section>
 
 
-        <!-- =========================
-             EDUCATION
-        ========================== -->
-
+        <!-- EDUCATION -->
         <section id="education" class="section">
-
             <div class="container">
-
                 <div class="section-heading">
-
-                    <span class="section-number">
-                        05
-                    </span>
-
+                    <span class="section-number">05</span>
                     <div>
-                        <p class="section-label">
-                            EDUCATION
-                        </p>
-
-                        <h2>
-                            Education & Certifications.
-                        </h2>
+                        <p class="section-label">EDUCATION</p>
+                        <h2>Education & Certifications.</h2>
                     </div>
-
                 </div>
-
 
                 <div class="education-grid">
-
                     <article class="education-card">
-
-                        <span class="card-label">
-                            EDUCATION
-                        </span>
-
-                        <h3>
-                            Student
-                        </h3>
-
-                        <p>
-                            Bamidele Olumilua Science and Technology
-                        </p>
-
-                        <span class="education-year">
-                            2024
-                        </span>
-
+                        <span class="card-label">DEGREE</span>
+                        <h3>B.Sc. / Higher National Diploma</h3>
+                        <p>Bamidele Olumilua University of Education, Science and Technology</p>
+                        <span class="education-year">2020 — 2024</span>
                     </article>
 
-
                     <article class="education-card">
-
-                        <span class="card-label">
-                            CERTIFICATION
-                        </span>
-
-                        <h3>
-                            [Certification Name]
-                        </h3>
-
-                        <p>
-                            [Issuing Organization]
-                        </p>
-
-                        <span class="education-year">
-                            [DATE]
-                        </span>
-
+                        <span class="card-label">CERTIFICATION</span>
+                        <h3>Software Engineering Specialization</h3>
+                        <p>ALX / Holberton School Software Engineering Program</p>
+                        <span class="education-year">2023 — 2024</span>
                     </article>
-
                 </div>
-
             </div>
-
         </section>
 
 
-        <!-- =========================
-             STATS
-        ========================== -->
-
-        <section class="stats-section">
-
+        <!-- CONTACT -->
+        <section id="contact" class="section section-dark">
             <div class="container">
-
-                <div class="stats-grid">
-
-                    <div class="stat">
-
-                        <strong>
-                            [XX]
-                        </strong>
-
-                        <span>
-                            GitHub Repositories
-                        </span>
-
+                <div class="section-heading">
+                    <span class="section-number">06</span>
+                    <div>
+                        <p class="section-label">GET IN TOUCH</p>
+                        <h2>Let's build something together.</h2>
                     </div>
-
-                    <div class="stat">
-
-                        <strong>
-                            [XX]
-                        </strong>
-
-                        <span>
-                            Projects Completed
-                        </span>
-
-                    </div>
-
-                    <div class="stat">
-
-                        <strong>
-                            [XX]
-                        </strong>
-
-                        <span>
-                            Technologies
-                        </span>
-
-                    </div>
-
-                    <div class="stat">
-
-                        <strong>
-                            3+
-                        </strong>
-
-                        <span>
-                            Years Coding
-                        </span>
-
-                    </div>
-
                 </div>
 
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             CONTACT
-        ========================== -->
-
-        <section id="contact" class="section contact-section">
-
-            <div class="container">
-
-                <div class="contact-grid">
-
-                    <div class="contact-content">
-
-                        <p class="section-label">
-                            06 / CONTACT
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <p class="large-text">
+                            I'm currently looking for new opportunities in software engineering and backend development.
                         </p>
-
-                        <h2>
-                            Let's build something
-                            <span>useful.</span>
-                        </h2>
-
                         <p>
-                            I'm open to software engineering,
-                            backend development, and interesting
-                            technology opportunities.
+                            Whether you have a question, a potential project, or just want to connect, feel free to reach out!
                         </p>
-
                         <div class="contact-details">
-
-                            <a href="mailto:youremail@example.com">
-                                youremail@example.com
+                            <a href="mailto:youremail@example.com" class="contact-link">
+                                ✉ youremail@example.com
                             </a>
-
-                            <a href="https://github.com/Stringpappy">
-                                Stringpappy
-                            </a>
-
-                            <a href="https://www.linkedin.com/in/jeje-odunayo-865610259/">
-                                linkedin.com/in/yourusername
-                            </a>
-
-                            <span>
-                                [City, Country]
-                            </span>
-
                         </div>
-
                     </div>
 
-
-                    <form class="contact-form">
-
+                    <form class="contact-form" action="#" method="POST">
                         <div class="form-group">
-
-                            <label for="name">
-                                Name
-                            </label>
-
-                            <input
-                                type="text"
-                                id="name"
-                                name="name"
-                                placeholder="Jeje Odunayo Oluwaseyi"
-                                required
-                            >
-
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
                         </div>
-
-
                         <div class="form-group">
-
-                            <label for="email">
-                                Email
-                            </label>
-
-                            <input
-                                type="email"
-                                id="email"
-                                name="email"
-                                placeholder="jejeodunayo70@gmail.com"
-                                required
-                            >
-
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your email address" required>
                         </div>
-
-
                         <div class="form-group">
-
-                            <label for="message">
-                                Message
-                            </label>
-
-                            <textarea
-                                id="message"
-                                name="message"
-                                rows="6"
-                                placeholder="Tell me about your project..."
-                                required
-                            ></textarea>
-
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
                         </div>
-
-
-                        <button
-                            type="submit"
-                            class="btn btn-primary submit-button"
-                        >
-                            Send Message
-                            <span>↗</span>
-                        </button>
-
+                        <button type="submit" class="btn btn-primary">Send Message <span>↗</span></button>
                     </form>
-
                 </div>
-
             </div>
-
         </section>
 
     </main>
 
-
-    <!-- =========================
-         FOOTER
-    ========================== -->
-
+    <!-- FOOTER -->
     <footer class="footer">
-
         <div class="container footer-container">
-
-            <p>
-                © 2026 [FULL NAME]. Built with HTML & CSS.
-            </p>
-
-            <a href="#home">
-                Back to top ↑
-            </a>
-
+            <p>&copy; 2026 Jeje Odunayo Oluwaseyi. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
         </div>
-
     </footer>
 
 </body>

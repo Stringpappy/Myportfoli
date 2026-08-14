@@ -1,3 +1,36 @@
+
+/* profile */
+/* Hero Avatar */
+.profile-avatar-wrapper {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.profile-avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border: 5px solid red;
+}
+
+/* About Section Image */
+.about-image-card {
+    width: 100%;
+    max-width: 380px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.about-profile-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
 /* =========================================
    RESET
 ========================================= */
